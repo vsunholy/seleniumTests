@@ -15,8 +15,6 @@ describe('should add new todo tests', function () {
         addedTodoItem.should.equal('Buy groceries');
         // close browser
         // await driver.sleep(10000);
-        console.log(addedTodoItem);
-        
         await driver.quit();
 
     })
