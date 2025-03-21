@@ -1,6 +1,5 @@
-const { Builder, By, Key, until } = require('selenium-webdriver');
-const chai = require('chai');
-const expect = chai.expect;
+import { Builder, By, Key, until } from 'selenium-webdriver';
+import { expect } from 'chai';
 
 describe('Edit ToDo Item', function () {
   let driver;
